@@ -6,13 +6,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://totalhub.totalseller.com.br/resources/css/master.css">
+    <link rel="stylesheet" href="http://affihub.com.br/resources/css/master.css">
 
     <title><?= $this->e($title) ?></title>
     <body class="master-body">
         <header class="navbar">
             <span class="nav-logo">
-                <img src="http://totalhub.totalseller.com.br/resources/img/logosvg.svg" alt="logo_img">
+                <img src="http://affihub.com.br/resources/img/logosvg.svg" alt="logo_img">
             </span>
 
             <nav>
