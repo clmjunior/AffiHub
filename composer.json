@@ -1,0 +1,18 @@
+{
+    "name": "totalseller/simple-router-phpoo",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Claudio",
+            "email": "claudiomartinsjr6@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

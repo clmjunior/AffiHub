@@ -1,0 +1,78 @@
+:root {
+    /* Cores neutras para o tema claro */
+    --color-background: #f8f8f8;
+    --color-background-overlay: #eeeeee;
+    --color-absolute-white: #ffffff;
+    --color-absolute-black: #000000;
+    --color-text-primary: #333333;
+    --color-text-secondary: #666666;
+    --color-card-background: #ffffff;
+    --color-border: #d9d9d9;
+    --color-border-transparent: rgba(209, 209, 209, 0.5);
+    --color-hover: #f0f0f0;
+    
+    /* Cores de destaque baseadas na logo */
+    --color-primary: #3511f0;
+    --color-primary-light: #5a3ff5;
+    --color-primary-dark: #270bb8;
+    --color-secondary: #27c2aa;
+    --color-secondary-light: #50d8c1;
+    --color-secondary-dark: #1a8e7d;
+    
+    /* Cores de alerta e sucesso */
+    --color-danger: #d9534f;
+    --color-danger-hover: #c2322d;
+    --color-danger-light: #f9d6d5;
+    --color-success: #28a745;
+    --color-success-light: #a2edab;
+    --color-success-hover: #218838;
+    
+    /* Scrollbar e outros elementos */
+    --color-scrollbar-primary: #c2c2c2;
+    --color-bar-primary: #b0b0b0;
+    --color-bar-hover: #a0a0a0;
+    --color-overlay: rgba(127, 127, 131, 0.5);
+
+    --brightness: grayscale(100);
+
+}
+
+/* :root { */
+.dark-theme {
+    /* Cores escuras para o tema escuro */
+    --color-background: #121212;
+    --color-background-overlay: #0a0a0a;
+    --color-absolute-white: #ffffff;
+    --color-absolute-black: #181818;
+    --color-text-primary: #e0e0e0;
+    --color-text-secondary: #a1a1a1;
+    --color-card-background: #1e1e1e;
+    --color-border: #373737;
+    --color-border-transparent: rgba(55, 55, 55, 0.5);
+    --color-hover: #1a1a1a;
+    
+    /* Cores de destaque suavizadas para o tema escuro */
+    --color-primary: #2b0ebc;
+    --color-primary-light: #4a2fd8;
+    --color-primary-dark: #1f0991;
+    --color-secondary: #1e8f7f;
+    --color-secondary-light: #39b2a0;
+    --color-secondary-dark: #146a5d;
+    
+    /* Cores de alerta e sucesso ajustadas para tons menos vibrantes */
+    --color-danger: #8a3a3a;
+    --color-danger-hover: #9e4949;
+    --color-danger-light: #b97474;
+    --color-success: #3a6543;
+    --color-success-light: #6b9977;
+    --color-success-hover: #2f4b30;
+    
+    /* Scrollbar e outros elementos */
+    --color-scrollbar-primary: #3a3a3a;
+    --color-bar-primary: #606060;
+    --color-bar-hover: #909090;
+    --color-overlay: rgba(0, 0, 0, 0.5);
+
+
+    --brightness: brightness(10000);
+}
