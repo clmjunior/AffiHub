@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="http://affihub.com.br/resources/css/master.css">
-
+    <link rel="stylesheet" href="http://affihub.com.br/resources/css/<?= $this->e($file) ?>.css">
+    
     <title><?= $this->e($title) ?></title>
     <body class="master-body">
         <header class="navbar">
             <span class="nav-logo">
-                <img src="http://affihub.com.br/resources/img/logosvg.svg" alt="logo_img">
+                <a href="/" ><img src="http://affihub.com.br/resources/img/logosvg.svg" alt="logo_img"></a>
             </span>
 
             <nav>
@@ -27,14 +28,79 @@
             <aside class="sidebar">
                 <nav>
                     <span class="side-options">
-                        email@example.com.br
+                        
                     </span>
 
                     <ul class="side-options">
-                        <li><a class="option-link" href="#"><p>Side 1</p><ion-icon name="caret-down"></ion-icon></a></li>
-                        <li><a class="option-link" href="#"><p>Side 2</p><ion-icon name="caret-down"></ion-icon></a></li>
-                        <li><a class="option-link" href="#"><p>Side 3</p><ion-icon name="caret-down"></ion-icon></a></li>
+
+                        <li class="has-dropdown">
+                            <a class="option-link" href="#">
+                                <span class="icon"><ion-icon name="cube"></ion-icon></span>
+                                <span class="text">Produtos</span>
+                                <span class="arrow"><ion-icon name="caret-down"></ion-icon></span>
+                            </a>
+                            <ul class="dropdown">
+                                <li><a href="produtos">Listar Produtos</a></li>
+                                <li><a href="anuncios">Anúncios</a></li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+
+
+
+                        <li class="has-dropdown">
+                            <a class="option-link" href="#">
+                                <span class="icon"><ion-icon name="people"></ion-icon></span>
+                                <span class="text">Usuários</span>
+                                <span class="arrow"><ion-icon name="caret-down"></ion-icon></span>
+                            </a>
+                            <ul class="dropdown">
+                                <li><a href="#">Definir Acessos</a></li>
+                                <li><a href="listar-usuarios">Listar Usuários</a></li>
+                            </ul>
+                        </li>
+
+
+
+
+
+                        <!-- A PRINCIPIO O ACESSO A ESTE MENU SERA SOMENTE DO SUPORTE -->
+                        <li class="has-dropdown">
+                            <a class="option-link" href="#">
+                                <span class="icon"><ion-icon name="settings"></ion-icon></span>
+                                <span class="text">Configurações</span>
+                                <span class="arrow"><ion-icon name="caret-down"></ion-icon></span>
+                            </a>
+                            <ul class="dropdown">
+                                <li class="has-dropdown">
+                                    <a class="option-link" href="#">
+                                        <span class="text">Monitoramento</span>
+                                        <span class="arrow subarrow"><ion-icon name="chevron-down"></ion-icon></span>
+                                    </a>
+                                    <ul class="dropdown subdropdown">
+                                        <li><a class="option-link" href="/monitoramento-filas">Filas</a></li>
+                                        <li><a class="option-link" href="/acompanhamento-logs">Logs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a class="option-link" href="#">
+                                        <span class="text">Marketplaces</span>
+                                        <span class="arrow subarrow"><ion-icon name="chevron-down"></ion-icon></span>
+                                    </a>
+                                    <ul class="dropdown subdropdown">
+                                        <li><a class="option-link" href="/acesso-marketplace">Acesso</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
+
                     <div class="side-bottom">
                         <img src="" alt="">
                         
@@ -42,7 +108,7 @@
                 </nav>
             </aside>
 
-            <!-- Conte�do principal -->
+            <!-- Conteúdo principal -->
             <main class="main-content">
                 <?= $this->section('content') ?>
             </main>

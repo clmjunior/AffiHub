@@ -1,5 +1,5 @@
 <?php
-namespace app\helpers;
+namespace app\helpers\routing;
 
 class Uri
 {

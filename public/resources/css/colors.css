@@ -9,7 +9,9 @@
     --color-card-background: #ffffff;
     --color-border: #d9d9d9;
     --color-border-transparent: rgba(209, 209, 209, 0.5);
-    --color-hover: #f0f0f0;
+    --color-hover: #eeeeee;
+
+    --color-input-background: #ffffff;
     
     /* Cores de destaque baseadas na logo */
     --color-primary: #3511f0;
@@ -35,6 +37,10 @@
 
     --brightness: grayscale(100);
 
+    --table-row-odd: #ffffff;
+    --table-row-even: #f4f4f8;
+    --table-row-hover: var(--color-hover);
+
 }
 
 /* :root { */
@@ -50,6 +56,8 @@
     --color-border: #373737;
     --color-border-transparent: rgba(55, 55, 55, 0.5);
     --color-hover: #1a1a1a;
+
+    --color-input-background: #1a1a1a;
     
     /* Cores de destaque suavizadas para o tema escuro */
     --color-primary: #2b0ebc;
@@ -75,4 +83,8 @@
 
 
     --brightness: brightness(10000);
+
+    --table-row-odd: #1a1a1a;
+    --table-row-even: #1f1f1f;
+    --table-row-hover: var(--color-hover);
 }

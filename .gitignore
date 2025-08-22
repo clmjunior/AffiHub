@@ -1,6 +1,5 @@
 # Arquivos de configuração sensíveis
 .env
-.env.*
 
 # Dependências
 /vendor/
@@ -37,3 +36,5 @@ Thumbs.db
 *.tmp
 *.swp
 
+# Imagens
+img/

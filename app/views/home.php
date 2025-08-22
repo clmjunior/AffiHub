@@ -1,11 +1,11 @@
 <?php /** @var \League\Plates\Template\Template $this */ ?>
 
-<?php $this->layout('master', ['title' => $title]) ?>
+<?php $this->layout('master', ['file'=> $name, 'title' => $title]) ?>
 <style>
     .box {
         width: 100vw;
         height: 50vh;
-        background-color: red;
+        background-color: black;
         margin: 5px;
     }
 

@@ -8,6 +8,6 @@ class HomeController extends Controller
     {
 
         
-        $this->view('home', ['title' => 'Home', 'name' => 'craudião']);
+        $this->view('home', ['title' => 'Home', 'name' => 'home']);
     }
 }
