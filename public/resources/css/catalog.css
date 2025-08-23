@@ -1,0 +1,34 @@
+.content-container {
+    margin-top: 13vh; /* Ajusta para não sobrepor a navbar */
+}
+
+.main-content {
+    margin-left: 0;
+    padding: 20px 18vw;
+    overflow-y: auto; /* Adiciona rolagem se necessário */
+}
+
+.navbar {
+    border-bottom: 0.2px solid var(--color-border-transparent);
+    justify-content: space-around;
+}
+
+.sub-navbar {
+    position: fixed;
+    top: 8vh; /* posicionada logo abaixo da navbar fixa */
+    left: 0;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background);
+    border-bottom: 1px solid var(--color-border);
+    padding: 0 2.5vw;
+    z-index: 100;
+}
+
+.nav-user-container {
+    display: flex;
+    gap: 20px;
+}

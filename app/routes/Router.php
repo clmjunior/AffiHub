@@ -52,7 +52,8 @@ class Router
     {
         return [
             'get' => [
-                '/' => fn () => self::load('HomeController', 'index'),
+                '/' => fn () => self::load('catalog\\CatalogController', 'index'),
+                '/admin' => fn () => self::load('HomeController', 'index'),
                 '/monitoramento-filas' => fn () => self::load('config\\ConsoleController', 'indexQueue'),
                 '/acompanhamento-logs' => fn () => self::load('config\\ConsoleController', 'indexLog'),
                 '/acesso-marketplace' => fn () => self::load('config\\MarketplaceController', 'indexAccounts'),

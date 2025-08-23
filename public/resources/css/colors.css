@@ -14,13 +14,14 @@
     --color-input-background: #ffffff;
     
     /* Cores de destaque baseadas na logo */
-    --color-primary: #3511f0;
-    --color-primary-light: #5a3ff5;
-    --color-primary-dark: #270bb8;
-    --color-secondary: #27c2aa;
-    --color-secondary-light: #50d8c1;
-    --color-secondary-dark: #1a8e7d;
-    
+    --color-primary: #2C2C2C;           /* cor principal */
+    --color-primary-light: #565656;     /* tom mais claro do cinza */
+    --color-primary-dark: #1a1a1a;      /* tom mais escuro do cinza */
+
+    --color-secondary: #FF6F00;         /* cor secundária */
+    --color-secondary-light: #FF9a33;   /* tom mais claro do laranja */
+    --color-secondary-dark: #cc5700;    /* tom mais escuro do laranja */
+
     /* Cores de alerta e sucesso */
     --color-danger: #d9534f;
     --color-danger-hover: #c2322d;

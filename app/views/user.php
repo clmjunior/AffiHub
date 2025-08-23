@@ -1,6 +1,6 @@
 <?php /** @var \League\Plates\Template\Template $this */ ?>
 
-<?php $this->layout('master', ['file'=> $name, 'title' => $title]) ?>
+<?php $this->layout('master', ['title' => $title, 'name' => $name]) ?>
 
 <link href="https://unpkg.com/tabulator-tables@5.5.2/dist/css/tabulator.min.css" rel="stylesheet">
 <script src="https://unpkg.com/tabulator-tables@5.5.2/dist/js/tabulator.min.js"></script>
