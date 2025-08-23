@@ -135,6 +135,8 @@ button:disabled {
 /* Estrutura principal */
 .container-row {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex: 1;
 }
 
@@ -286,13 +288,24 @@ button:disabled {
 
 /* Conteúdo principal */
 .main-content {
-    flex-grow: 1; /* Ocupa todo o espaço restante */
+    flex: 1; /* Ocupa todo o espaço restante */
     padding: 20px;
     margin-left: 13vw; /* Deixa espaço para a sidebar */
     overflow-y: auto; /* Adiciona rolagem se necessário */
     background-color: var(--color-background);
 }
 
+/* Footer da página */
+.footer {
+    width: 100%;
+    padding: 12px;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: var(--color-text-secondary);
+}
 
 /* Tabelas de listagem */
 .tabulator {

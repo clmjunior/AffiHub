@@ -9,9 +9,6 @@
         margin: 5px;
     }
 
-    .container-row {
-        flex-wrap: wrap;
-    }
 </style>
 <div class="container-row" style="margin-top: 5px;">
 

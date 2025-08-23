@@ -53,6 +53,9 @@ class Router
         return [
             'get' => [
                 '/' => fn () => self::load('catalog\\CatalogController', 'index'),
+                '/login' => fn () => self::load('catalog\\LoginController', 'index'),
+                '/signup' => fn () => self::load('catalog\\SignUpController', 'index'),
+                
                 '/admin' => fn () => self::load('HomeController', 'index'),
                 '/monitoramento-filas' => fn () => self::load('config\\ConsoleController', 'indexQueue'),
                 '/acompanhamento-logs' => fn () => self::load('config\\ConsoleController', 'indexLog'),

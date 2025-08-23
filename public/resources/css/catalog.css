@@ -9,8 +9,8 @@
 }
 
 .navbar {
+    padding: 0 20vw;
     border-bottom: 0.2px solid var(--color-border-transparent);
-    justify-content: space-around;
 }
 
 .sub-navbar {

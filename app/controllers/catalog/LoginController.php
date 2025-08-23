@@ -4,7 +4,7 @@ namespace app\controllers\catalog;
 
 use app\controllers\Controller;
 
-class CatalogController extends Controller
+class LoginController extends Controller
 {
     public function index()
     {
@@ -12,6 +12,6 @@ class CatalogController extends Controller
             session_start();
         }
                 
-        $this->view('catalog/catalog', ['title' => 'Catálogo', 'name' => 'catalog']);
+        $this->view('catalog/login', ['title' => 'Entrar', 'name' => 'login']);
     }
 }
