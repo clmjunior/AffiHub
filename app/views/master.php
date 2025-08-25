@@ -20,7 +20,11 @@ $sufix  = "Affiler | ";
     <header class="navbar">
         <span class="nav-logo">
             <a href="/">
-                <img src="<?= getenv('IMG_HOST_RESOURCES'); ?>/logosvg.svg" alt="logo_img">
+                <?php if (!in_array($name, ["login", "signup"])): ?>
+                    <img src="<?= getenv('IMG_HOST_RESOURCES'); ?>/logoicon.svg" alt="logo_img">
+                <?php endif; ?>
+
+                <img src="<?= getenv('IMG_HOST_RESOURCES'); ?>/logotext.svg" alt="logo_img">
             </a>
         </span>
 

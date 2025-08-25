@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'Fredoka';
+  src: url('Fredoka.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 @import url('colors.css');
+
 
 * {
     margin: 0;
@@ -130,6 +137,16 @@ button:disabled {
 .nav-logo a img {
     width: 6vw;
     /* filter: var(--brightness); */
+}
+
+.h1-title {
+    height: 10%;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    width: 100%;
 }
 
 /* Estrutura principal */
