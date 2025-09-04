@@ -11,8 +11,8 @@ $sufix  = "Affiler | ";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="http://affiler.com.br/resources/css/master.css">
-    <link rel="stylesheet" href="http://affiler.com.br/resources/css/<?= $name ?>.css">
+    <link rel="stylesheet" href="<?= getenv('APP_URL'); ?>/resources/css/master.css">
+    <link rel="stylesheet" href="<?= getenv('APP_URL'); ?>/resources/css/<?= $name ?>.css">
     <title><?= $sufix . $title ?></title>
 </head>
 
