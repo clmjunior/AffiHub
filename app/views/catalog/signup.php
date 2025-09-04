@@ -1,7 +1,9 @@
 <?php /** @var \League\Plates\Template\Template $this */ ?>
-
 <?php $this->layout('master', ['title' => $title, 'name' => $name]) ?>
 
-<div class="container-row" style="margin-top: 5px;">
-
+<div class="form-card">
+    <h1 class="card-title">Cadastro</h1>
+    <form action="">
+        test
+    </form>
 </div>

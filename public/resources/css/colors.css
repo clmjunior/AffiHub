@@ -5,8 +5,9 @@
     --color-absolute-white: #ffffff;
     --color-absolute-black: #000000;
     --color-text-primary: #333333;
-    --color-text-secondary: #666666;
+    --color-text-secondary: #aeaeae;
     --color-card-background: #ffffff;
+    --color-card-title: #FF6F00;
     --color-border: #d9d9d9;
     --color-border-transparent: rgba(209, 209, 209, 0.5);
     --color-hover: #eeeeee;
