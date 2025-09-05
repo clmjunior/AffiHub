@@ -7,7 +7,6 @@
     --color-text-primary: #333333;
     --color-text-secondary: #aeaeae;
     --color-card-background: #ffffff;
-    --color-card-title: #FF6F00;
     --color-border: #d9d9d9;
     --color-border-transparent: rgba(209, 209, 209, 0.5);
     --color-hover: #eeeeee;
@@ -16,7 +15,7 @@
     
     /* Cores de destaque baseadas na logo */
     --color-primary: #2C2C2C;           /* cor principal */
-    --color-primary-light: #565656;     /* tom mais claro do cinza */
+    --color-primary-light: #8d8d8d;     /* tom mais claro do cinza */
     --color-primary-dark: #1a1a1a;      /* tom mais escuro do cinza */
 
     --color-secondary: #FF6F00;         /* cor secundária */
